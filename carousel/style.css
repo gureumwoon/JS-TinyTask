@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    overflow: hidden;
+}
+
+.list {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    transition:transform 0.5s;
+}
+
+.item,
+img {
+    width: 30vw;
+    float:left;
+}
