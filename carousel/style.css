@@ -12,19 +12,24 @@ button {
 }
 
 .container {
+    display: flex;
+    width: 670px;
+    height: 450px;
+    position: relative;
     overflow: hidden;
+    margin: 0 auto;
 }
 
 .list {
     padding: 0;
     display: flex;
     justify-content: center;
-    width: 100vw;
-    transition:transform 0.5s;
+    width: 750px;
 }
 
 .item,
 img {
-    width: 30vw;
+    width: 750px;
     float:left;
+    object-fit: cover;
 }
