@@ -18,3 +18,5 @@ function imgTransition() {
 
 
 list.addEventListener('transitioned', imgTransition);
+prevBtn.addEventListener('click', handleLeft);
+nextBtn.addEventListener('click', handleRight);
